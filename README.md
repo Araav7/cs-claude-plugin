@@ -14,7 +14,7 @@ Open Claude Code and run these three commands:
 
 **1. Add the plugin marketplace:**
 ```
-/plugin marketplace add Araav7/cs-claude-plugin
+/plugin marketplace add https://github.com/Araav7/cs-claude-plugin
 ```
 
 **2. Install the plugin:**
