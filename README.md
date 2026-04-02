@@ -10,10 +10,21 @@ That's it. The plugin handles everything else automatically.
 
 ## Installation
 
-Open Claude Code and run:
+Open Claude Code and run these three commands:
 
+**1. Add the plugin marketplace:**
 ```
-/install github:Araav7/cs-claude-plugin
+/plugin marketplace add https://github.com/Araav7/cs-claude-plugin
+```
+
+**2. Install the plugin:**
+```
+/plugin install cs-plugin@cs-claude-plugin
+```
+
+**3. Reload plugins:**
+```
+/reload-plugins
 ```
 
 On first session, the plugin will automatically:
@@ -127,5 +138,6 @@ Full portfolio view for your accounts: total MRR, accounts by health status, upc
 The plugin updates automatically when you start a new Claude Code session. To force an update:
 
 ```
-/install github:Araav7/cs-claude-plugin
+/plugin install cs-plugin@cs-claude-plugin
+/reload-plugins
 ```
