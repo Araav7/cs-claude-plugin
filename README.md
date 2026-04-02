@@ -103,24 +103,6 @@ Full portfolio view for your accounts: total MRR, accounts by health status, upc
 /my-portfolio
 ```
 
-## How It Works
-
-Each command:
-1. Looks up the account by name in Snowflake (`REPORTING.GENERAL.DIM_SALESFORCE_ACCOUNT`)
-2. If multiple matches are found, asks you to pick one
-3. Runs the relevant Snowflake queries in parallel
-4. Returns a formatted, actionable brief
-
-All queries are **read-only** — the plugin cannot modify any data.
-
-## Data Sources
-
-| Source | What it provides |
-|--------|-----------------|
-| Snowflake (`REPORTING.GENERAL`) | Account details, MRR history, product adoption pageviews |
-| Snowflake (`REPORTING.GTM`) | Opportunities, contracts |
-| Atlassian Confluence | Internal wiki and account documentation |
-
 ## Troubleshooting
 
 **"No matches found" when searching for an account**
