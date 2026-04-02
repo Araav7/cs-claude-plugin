@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "snowflake": {
+      "command": "uvx",
+      "args": [
+        "mcp-snowflake",
+        "--config",
+        "~/.config/mcp/snowflake-config.yaml"
+      ]
+    },
+    "atlassian": {
+      "type": "http",
+      "url": "https://mcp.atlassian.com/v1/sse",
+      "headers": {}
+    }
+  }
+}

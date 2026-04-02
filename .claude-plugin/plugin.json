@@ -1,0 +1,7 @@
+{
+  "name": "cs-plugin",
+  "version": "1.0.0",
+  "description": "Account intelligence for Customer Success managers at Datadog",
+  "mcpServers": ".mcp.json",
+  "hooks": "hooks/hooks.json"
+}
