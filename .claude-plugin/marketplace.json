@@ -1,0 +1,17 @@
+{
+  "name": "cs-claude-plugin",
+  "owner": {
+    "name": "Araav7"
+  },
+  "metadata": {
+    "description": "Account intelligence plugins for Customer Success managers at Datadog"
+  },
+  "plugins": [
+    {
+      "name": "cs-plugin",
+      "source": "./cs-plugin",
+      "description": "Account health, MRR trends, adoption, churn risk, and portfolio management for CS managers",
+      "version": "1.0.0"
+    }
+  ]
+}
